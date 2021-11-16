@@ -1,0 +1,63 @@
+var input =[{
+
+    memory_summary :[{
+
+    maximun_capacity : "2048 MBytes",
+    
+    maximum_memory_module_size : "4096 MBytes",
+    
+    memory_slots : "4",
+    
+    error_correction : "None",
+    
+    dram_frequency : "199.0 MHz",
+    
+    memory_timing : "3-3-3-8(CL-RCD-RP-RAS)"
+        
+    }]
+    
+} ,
+
+{
+    device_locator :[{
+    
+    manufacturer : "Hyundai Electronics",
+    
+    part_number : "HYMD26464 646D8J-D43",
+    
+    serial_number : "FFFFF72420",
+    
+    capacity : "512 MBytes",
+    
+    memory_type : "DDR (PC3200)",
+    
+    speed : "200 MHz",
+    
+    supported_frequencies : "133 MHz, 166 MHZ, 200 MHz",
+    
+    memory_timings : "2-2-2-6-0 at 133 MHz, at 200 MHz",
+    
+    memory_timings1 : "2-3-3-7-0 at 166 MHz, at 200 MHz",
+     
+    memory_timings2 : "3-3-3-8-0 at 200 MHz, at 200 MHz",
+     
+    data_width : "64 bits",
+     
+    manufacturing_date : "2005, Week 39",
+     
+    epp_spd_support : "No",
+     
+    xmp_spd_support : "No" }]
+    
+    
+}];
+
+console.log(input[0].memory_summary[0].memory_slots);
+
+console.log(input[0].memory_summary[0].dram_frequency);
+
+console.log(input[1].device_locator[0].speed);
+
+console.log(input[1].device_locator[0].manufacturing_date);
+
+
